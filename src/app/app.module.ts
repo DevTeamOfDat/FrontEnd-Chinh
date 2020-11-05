@@ -16,6 +16,9 @@ import { WidgetAreaComponent } from './component/home/widget-area/widget-area.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogLoginComponent } from './component/home/dialog-login/dialog-login.component';
+import { CheckoutComponent } from './component/checkout/checkout.component';
+import { SingleProductComponent } from './component/single-product/single-product.component';
+import { CardComponent } from './component/card/card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,9 @@ import { DialogLoginComponent } from './component/home/dialog-login/dialog-login
     FooterComponent,
     WidgetAreaComponent,
     DialogLoginComponent,
+    CheckoutComponent,
+    SingleProductComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
