@@ -89,21 +89,6 @@ body {
   z-index: 999;
 }
 
-.logo h1 {
-  font-size: 40px;
-  margin: 30px 0;
-  font-weight: 400;
-}
-.logo h1 a {
-  color: #999;
-}
-.logo h1 a:hover {
-  text-decoration: none;
-  opacity: 0.7;
-}
-.logo h1 a span {
-  color: #5a88ca;
-}
 .shopping-item {
   border: 1px solid #ddd;
   float: right;
@@ -160,11 +145,11 @@ body {
 
 .mainmenu-area ul.navbar-nav li:hover a,
 .mainmenu-area ul.navbar-nav li.active a {
-  background: "blue";
-  color: "black";
+  background: #5a88ca;
+  color: #fff;
 }
 .mainmenu-area .nav > li > a:focus {
-  color: "black";
+  color: #fff;
 }
 
 .slider-area {
@@ -401,18 +386,7 @@ body {
 .promo4 {
   background: #4abebd;
 }
-.section-title {
-  font-family: "Raleway", sans-serif;
-  font-size: 50px;
-  font-weight: 100;
-  margin-bottom: 50px;
-  text-align: center;
-  font-weight: bold;
-}
 
-.product-f-image {
-  position: relative;
-}
 .product-hover {
   height: 100%;
   left: 0;
@@ -470,35 +444,6 @@ body {
 .product-hover a.view-details-link {
   bottom: -25%;
 }
-.single-product h2 {
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-}
-
-.single-product h2 a {
-  color: #222;
-}
-.single-product p {
-  color: #5a88ca;
-  font-weight: 700;
-}
-
-.single-product {
-  overflow: hidden;
-}
-.single-product:hover {
-}
-.single-product:hover .product-hover a.add-to-cart-link {
-  top: 32%;
-}
-.single-product:hover .product-hover a.view-details-link {
-  bottom: 32%;
-}
-.single-product:hover .product-hover:after {
-  left: 0;
-}
 
 .product-carousel {
   padding-top: 40px;
@@ -552,27 +497,13 @@ body {
   padding-top: 20px;
 }
 
-.product-wid-title {
-  font-family: raleway;
-  font-size: 30px;
-  font-weight: 100;
-  margin-bottom: 40px;
-}
-
-.single-wid-product {
-  margin-bottom: 31px;
-  overflow: hidden;
-}
 .product-thumb {
   float: left;
   height: 90px;
   margin-right: 15px;
   width: 100px;
 }
-.single-wid-product h2 {
-  font-size: 14px;
-  margin-bottom: 12px;
-}
+
 .product-wid-rating {
   color: #ffc808;
   margin-bottom: 10px;
@@ -589,92 +520,6 @@ body {
 .single-wid-product h2 a:hover,
 .single-product h2 a:hover {
   color: #5a88ca;
-}
-.wid-view-more {
-  background: none repeat scroll 0 0 #5a88ca;
-  color: #fff;
-  padding: 3px 15px;
-  position: absolute;
-  right: 10px;
-  top: 3px;
-}
-.wid-view-more:hover {
-  color: #fff;
-  background-color: #222;
-  text-decoration: none;
-}
-.single-product-widget {
-  position: relative;
-}
-.product-widget-area {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-.product-widget-area .zigzag-bottom {
-  background: #f4f4f4;
-}
-.footer-top-area .zigzag-bottom {
-  background: #f4f4f4;
-}
-.footer-top-area {
-  background: none repeat scroll 0 0 #333;
-  color: #999;
-  padding: 35px 0 180px;
-}
-
-.footer-bottom-area {
-  background: #000;
-  color: #fff;
-}
-.footer-about-us span {
-  color: #5a88ca;
-}
-.footer-wid-title {
-  font-family: raleway;
-  font-size: 30px;
-  font-weight: 100;
-  color: #fff;
-}
-
-.footer-about-us h2 {
-  font-weight: 200;
-}
-.footer-menu ul {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
-}
-.footer-menu ul li {
-  border-bottom: 1px dashed #555;
-  padding: 5px 0;
-}
-.footer-menu a {
-  display: block;
-  padding: 5px 0;
-  color: #999;
-}
-
-.footer-social a {
-  background: none repeat scroll 0 0 #5a88ca;
-  color: #fff;
-  display: inline-block;
-  font-size: 20px;
-  height: 40px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  padding-top: 5px;
-  text-align: center;
-  width: 40px;
-  border: 1px solid #5a88ca;
-}
-
-.footer-social a:hover {
-  background-color: #222;
-  border-color: #666;
-}
-
-.footer-social {
-  margin-top: 20px;
 }
 
 .newsletter-form input[type="email"] {
@@ -707,11 +552,6 @@ a {
 a:hover,
 a:focus {
   color: #17a78b;
-}
-.footer-bottom-area {
-  background: none repeat scroll 0 0 #000;
-  color: #fff;
-  padding-bottom: 40px;
 }
 
 .slide-bulletz {
@@ -758,26 +598,8 @@ ol.slide-indicators li.active {
   filter: alpha(opacity=0);
 }
 
-.footer-card-icon {
-  font-size: 30px;
-  text-align: right;
-}
-
-.copyright > p {
-  margin: 10px 0 0;
-}
-
 .product-big-title-area {
   background: url(img/crossword.png) repeat scroll 0 0 #5a88ca;
-}
-
-.product-bit-title h2 {
-  font-family: raleway;
-  font-size: 50px;
-  font-weight: 200;
-  margin: 0;
-  padding: 50px 0;
-  color: #fff;
 }
 
 .single-product-area .zigzag-bottom {
@@ -788,12 +610,6 @@ ol.slide-indicators li.active {
   padding: 80px 0 130px;
 }
 
-.sidebar-title {
-  color: #fead53;
-  font-size: 25px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
 .single-sidebar {
   margin-bottom: 50px;
 }
@@ -812,6 +628,7 @@ button[type="submit"] {
   padding: 11px 20px;
   text-transform: uppercase;
 }
+
 input[type="submit"]:hover,
 button[type="submit"]:hover {
   background-color: #222;
@@ -983,12 +800,6 @@ form.cart {
 
 .related-products-wrapper {
   margin-top: 30px;
-}
-.related-products-title {
-  color: #feae52;
-  font-size: 25px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
 }
 
 .related-products-wrapper .owl-nav {
