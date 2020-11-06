@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LatestProductsComponent } from './latest-products.component';
+import { MaincontentAreaComponent } from './maincontent-area.component';
 
-describe('LatestProductsComponent', () => {
-  let component: LatestProductsComponent;
-  let fixture: ComponentFixture<LatestProductsComponent>;
+describe('MaincontentAreaComponent', () => {
+  let component: MaincontentAreaComponent;
+  let fixture: ComponentFixture<MaincontentAreaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LatestProductsComponent ]
+      declarations: [ MaincontentAreaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LatestProductsComponent);
+    fixture = TestBed.createComponent(MaincontentAreaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

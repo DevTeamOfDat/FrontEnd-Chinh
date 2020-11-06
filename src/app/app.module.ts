@@ -9,7 +9,6 @@ import { ShopPageComponent } from './component/shop-page/shop-page.component';
 import { SiteBrandingAreaComponent } from './component/home/site-branding-area/site-branding-area.component';
 import { MainMenuAreaComponent } from './component/home/main-menu-area/main-menu-area.component';
 import { SlideAreaComponent } from './component/home/slide-area/slide-area.component';
-import { LatestProductsComponent } from './component/home/latest-products/latest-products.component';
 import { BrandAreaComponent } from './component/home/brand-area/brand-area.component';
 import { FooterComponent } from './component/home/footer/footer.component';
 import { WidgetAreaComponent } from './component/home/widget-area/widget-area.component';
@@ -19,6 +18,8 @@ import { DialogLoginComponent } from './component/home/dialog-login/dialog-login
 import { CheckoutComponent } from './component/checkout/checkout.component';
 import { SingleProductComponent } from './component/single-product/single-product.component';
 import { CardComponent } from './component/card/card.component';
+import { PromoAreaComponent } from './component/home/promo-area/promo-area.component';
+import { MaincontentAreaComponent } from './component/home/maincontent-area/maincontent-area.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,6 @@ import { CardComponent } from './component/card/card.component';
     SiteBrandingAreaComponent,
     MainMenuAreaComponent,
     SlideAreaComponent,
-    LatestProductsComponent,
     BrandAreaComponent,
     FooterComponent,
     WidgetAreaComponent,
@@ -37,6 +37,9 @@ import { CardComponent } from './component/card/card.component';
     CheckoutComponent,
     SingleProductComponent,
     CardComponent,
+    PromoAreaComponent,
+    MaincontentAreaComponent,
+
   ],
   imports: [
     BrowserModule,
