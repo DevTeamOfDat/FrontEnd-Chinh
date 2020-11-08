@@ -19,6 +19,9 @@ import { DialogLoginComponent } from './component/home/dialog-login/dialog-login
 import { CheckoutComponent } from './component/checkout/checkout.component';
 import { SingleProductComponent } from './component/single-product/single-product.component';
 import { CardComponent } from './component/card/card.component';
+import { PromoAreaComponent } from './component/home/promo-area/promo-area.component';
+import { LoginComponent } from './login/login.component';
+import { SignInComponent } from './login/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,9 @@ import { CardComponent } from './component/card/card.component';
     CheckoutComponent,
     SingleProductComponent,
     CardComponent,
+    PromoAreaComponent,
+    LoginComponent,
+    SignInComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatDialogConfig, MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { DialogLoginComponent } from '../dialog-login/dialog-login.component';
 
 @Component({
@@ -9,7 +9,7 @@ import { DialogLoginComponent } from '../dialog-login/dialog-login.component';
 })
 export class HeaderAreaComponent {
   constructor(private matDialog: MatDialog) {}
-  OpenDialogLogin() {
+  DialogLogin() {
     const dialogConfig = new MatDialogConfig();
     this.matDialog.open(DialogLoginComponent, dialogConfig);
   }
