@@ -8,13 +8,19 @@
           <div class="user-menu">
             <ul>
               <li>
-                <a (click)="DialogLogin()" style="cursor: pointer"
-                  ><i class="fa fa-user"></i> login</a
+                <a (click)="DialogSignUp()" style="cursor: pointer"
+                  ><i class="fa fa-user"></i> SignUp</a
                 >
               </li>
-
               <li>
-                <a style="cursor: pointer"><i class="fa fa-user"></i> Logout</a>
+                <a (click)="DialogSignIn()" style="cursor: pointer"
+                  ><i class="fa fa-user"></i> SignIn</a
+                >
+              </li>
+              <li>
+                <a style="cursor: pointer"
+                  ><i class="fa fa-sign-out"></i> Logout</a
+                >
               </li>
             </ul>
           </div>

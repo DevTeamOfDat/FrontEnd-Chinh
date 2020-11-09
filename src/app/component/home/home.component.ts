@@ -1,9 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Store, State } from '@ngrx/store';
-import { Observable, from } from 'rxjs';
-import { UserState, getLogin } from '../../login/_reducers';
-import { Router, ActivatedRoute } from '@angular/router';
-import * as userLogin from '../../login/_action/userAction';
+import { Component} from '@angular/core';
+
+
 
 @Component({
   selector: 'app-home',

@@ -2,7 +2,7 @@ $(function ($) {
   // Slidder home 4
   if ($("#bxslider-home4").length > 0) {
     var slider = $("#bxslider-home4").bxSlider({
-      nextText: '<i class="fa fa-angle-right"></i>',
+      nextText: '<i  class="fa fa-angle-right"></i>',
       prevText: '<i class="fa fa-angle-left"></i>',
       auto: true,
       onSliderLoad: function (currentIndex) {
@@ -40,7 +40,7 @@ $(function ($) {
                 }
               );
           });
-        }, 500);
+        });
       },
     });
     //slider.reloadSlider();

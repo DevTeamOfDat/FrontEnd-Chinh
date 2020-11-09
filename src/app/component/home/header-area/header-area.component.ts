@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { DialogLoginComponent } from '../dialog-login/dialog-login.component';
+import { SignInComponent } from 'src/app/login/sign-in/sign-in.component';
+import { SignUpComponent } from 'src/app/login/sign-up/sign-up.component';
 
 @Component({
   selector: 'app-header-area',
@@ -9,8 +10,12 @@ import { DialogLoginComponent } from '../dialog-login/dialog-login.component';
 })
 export class HeaderAreaComponent {
   constructor(private matDialog: MatDialog) {}
-  DialogLogin() {
+  DialogSignIn() {
     const dialogConfig = new MatDialogConfig();
-    this.matDialog.open(DialogLoginComponent, dialogConfig);
+    this.matDialog.open(SignInComponent, dialogConfig);
+  }
+  DialogSignUp() {
+    const dialogConfig = new MatDialogConfig();
+    this.matDialog.open(SignUpComponent, dialogConfig);
   }
 }

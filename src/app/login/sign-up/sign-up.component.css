@@ -1,12 +1,13 @@
 .login-box {
   width: 420px;
-  height: 520px;
+  height: 550px;
   background: #fff;
 
   box-sizing: border-box;
-  padding: 70px 30px;
+  padding: 0px 30px;
   border-radius: 4px;
 }
+
 h1 {
   padding-left: 90px;
   font-size: 24px;
@@ -23,7 +24,7 @@ h1 {
   width: 100%;
   margin-bottom: 20px;
   border-width: 1px;
-  border-color: #b80f22;
+  border-color: #899092;
   border-radius: 5px;
 }
 .login-box input[type="text"],
@@ -45,7 +46,7 @@ h1 {
 }
 .login-box input[type="submit"]:hover {
   cursor: pointer;
-  background: #31984e;
+  background: #080808;
   color: #fff;
 }
 .login-box a {

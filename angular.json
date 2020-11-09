@@ -31,7 +31,8 @@
               "./src/assets/js/script.slider.js",
               "./src/assets/js/bxslider.min.js",
               "./src/assets/js/owl.carousel.min.js",
-              "./src/assets/js/login.js"
+              "./src/assets/js/login.js",
+              "./src/assets/js/login.swap.js"
             ]
           },
           "configurations": {
